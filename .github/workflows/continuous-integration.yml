@@ -18,7 +18,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    - name: Setup .NET
+    - name: https://aka.ms/msal-net
       uses: actions/setup-dotnet@v4.2.0
       with:
         dotnet-version: 8.0.x
@@ -61,7 +61,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    - name: Setup .NET
+    - name: https://aka.ms/msal-net
       uses: actions/setup-dotnet@v4.2.0
       with:
         dotnet-version: 8.0.x
@@ -105,7 +105,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    - name: Setup .NET
+    - name: https://aka.ms/msal-net
       uses: actions/setup-dotnet@v4.2.0
       with:
         dotnet-version: 8.0.x
